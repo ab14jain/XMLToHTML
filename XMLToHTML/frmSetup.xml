@@ -1,0 +1,1570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<portalMigratorData version="3.0.0.0" type="Notes">
+  <job>
+    <data>
+      <databaseInfo>
+        <containsPremappedNames>true</containsPremappedNames>
+        <acl>
+          <aclEntry name="-Default-" mappedName="-Default-" canCreate="true" canDelete="false" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="false" level="3">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=Katarina Palmer/OU=AHO/O=Autoliv" mappedName="Katarina Palmer" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="false" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="$AHOPU037_Editor" mappedName="$AHOPU037_Editor@" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="true" isExpandedGroup="false" isPerson="true" isServer="false" level="4">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="$AHOPU037_Reader" mappedName="$AHOPU037_Reader@" canCreate="false" canDelete="false" canReadPublic="true" canWritePublic="true" isGroup="true" isExpandedGroup="false" isPerson="true" isServer="false" level="2">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=Mikael Marbenius/OU=AHO/O=Autoliv" mappedName="Mikael Marbenius" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="false" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="Anonymous" mappedName="Anonymous" canCreate="true" canDelete="false" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="false" level="3">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=AHO-Ex02/O=Autoliv-AHO-EXT" mappedName="AHO-Ex02" canCreate="false" canDelete="false" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="2">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="#Administrators" mappedName="#Administrators@" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="true" isExpandedGroup="false" isPerson="true" isServer="false" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="#ALV-ReplicationServers" mappedName="#ALV-ReplicationServers@" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="true" isExpandedGroup="false" isPerson="false" isServer="true" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="#Admin-DB Migration Scan" mappedName="#Admin-DB Migration Scan@" canCreate="false" canDelete="false" canReadPublic="true" canWritePublic="true" isGroup="true" isExpandedGroup="false" isPerson="true" isServer="false" level="2">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="#Admin-DB" mappedName="#Admin-DB@" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="true" isExpandedGroup="false" isPerson="true" isServer="false" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=A-ALVA-LN02/OU=ALV/O=Autoliv" mappedName="A-ALVA-LN02" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=A-ALVA-LN01/OU=ALV/O=Autoliv" mappedName="A-ALVA-LN01" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=ALVA-EX01/O=AutolivEXT" mappedName="ALVA-EX01" canCreate="false" canDelete="false" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="2">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=A-ALVA-LN04/OU=ALV/O=Autoliv" mappedName="A-ALVA-LN04" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=A-ALVA-LN03/OU=ALV/O=Autoliv" mappedName="A-ALVA-LN03" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=Synergica/OU=AHO/O=Autoliv" mappedName="Synergica" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="false" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+          <aclEntry name="CN=AHO-LN01/OU=AHO/O=Autoliv" mappedName="AHO-LN01" canCreate="true" canDelete="true" canReadPublic="true" canWritePublic="true" isGroup="false" isExpandedGroup="false" isPerson="true" isServer="true" level="6">
+            <roles />
+            <members />
+          </aclEntry>
+        </acl>
+        <folders />
+      </databaseInfo>
+      <fields>
+        <field name="doccreated" type="DateTime" />
+        <field name="docmodified" type="DateTime" />
+        <field name="ModifiedBy" array="true" type="String" />
+        <field name="noteid" type="Double" />
+        <field name="unid" type="String" />
+        <field name="parentnoteid" type="null" />
+        <field name="parentunid" type="null" />
+        <field name="dbid" type="String" />
+        <field name="notesurl" type="String" />
+        <field name="Form" type="String" />
+        <field name="ModifiedBy$MAPPED" array="true" type="String" />
+        <field name="RenderHtml" type="String" />
+        <field name="RenderAttachments" array="true" type="Object" />
+        <field name="RenderAttachments$name" array="true" type="String" />
+        <field name="RenderAttachments$ID" array="true" type="String" />
+        <field name="RenderAttachments$BLOCKED" array="true" type="String" />
+        <field name="RenderImages" array="true" type="Object" />
+        <field name="RenderImages$type" array="true" type="String" />
+        <field name="RenderEmbeddedObjects" array="true" type="Object" />
+        <field name="RenderEmbeddedObjects$type" array="true" type="String" />
+        <field name="Subject" type="String" />
+      </fields>
+      <records>
+        <record>
+          <field name="doccreated" type="DateTime">2004-06-18T09:41:02.83Z</field>
+          <field name="docmodified" type="DateTime">2017-12-26T12:16:33.16Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="22">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Pawlik/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Pawlik/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Pawlik/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Petra Schnugger/OU=ANG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Heidi Gutt/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Heidi Gutt/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2418</field>
+          <field name="unid" type="String">84a65efc4284acb8c1256eb70035324b</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/84a65efc4284acb8c1256eb70035324b</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="22">
+            <element>Sarah Wundsam</element>
+            <element>Synergica</element>
+            <element>Sarah Pawlik</element>
+            <element>Synergica</element>
+            <element>Sarah Pawlik</element>
+            <element>Synergica</element>
+            <element>Sarah Pawlik</element>
+            <element>Synergica</element>
+            <element>Petra Schnugger</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Heidi Gutt</element>
+            <element>Katarina Palmer</element>
+            <element>Heidi Gutt</element>
+            <element>Katarina Palmer</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				PPAP Checklist
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/PPAP checklist.xlsx"&gt;PPAP checklist.xlsx&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="41112" src="frmSetup_Files\84a65efc4284acb8c1256eb70035324b\PPAP checklist.xlsx" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>PPAP checklist.xlsx</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>PPAP checklist.xlsx</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-04-07T13:26:00.99Z</field>
+          <field name="docmodified" type="DateTime">2017-12-26T12:16:26.25Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="21">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2422</field>
+          <field name="unid" type="String">ef8bd60b45869512c1256e6f0049cb03</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/ef8bd60b45869512c1256e6f0049cb03</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="21">
+            <element>Sarah Wundsam</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+            <element>Katarina Palmer</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				Control Plan
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/Control Plan.doc"&gt;Control Plan.doc&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="34816" src="frmSetup_Files\ef8bd60b45869512c1256e6f0049cb03\Control Plan.doc" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>Control Plan.doc</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>Control Plan.doc</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-04-07T12:29:16.8Z</field>
+          <field name="docmodified" type="DateTime">2017-12-26T12:16:26.95Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="17">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2426</field>
+          <field name="unid" type="String">c64935c264893709c1256e6f00449940</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/c64935c264893709c1256e6f00449940</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="17">
+            <element>Sarah Wundsam</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				Engineering Approval
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/Engineering Approval.doc"&gt;Engineering Approval.doc&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="35328" src="frmSetup_Files\c64935c264893709c1256e6f00449940\Engineering Approval.doc" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>Engineering Approval.doc</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>Engineering Approval.doc</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-03-18T16:29:54.84Z</field>
+          <field name="docmodified" type="DateTime">2017-10-26T11:52:50.97Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="26">
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Pawlik/OU=ASG/O=Autoliv</element>
+            <element>CN=Petra Schnugger/OU=ANG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Johan Eriksson/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Johan Lagerstedt/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Heidi Gutt/OU=ANG/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2430</field>
+          <field name="unid" type="String">5314073a59d6b438c1256e5b005aa11c</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/5314073a59d6b438c1256e5b005aa11c</field>
+          <field name="Form" type="String">DocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="26">
+            <element>Synergica</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Sarah Pawlik</element>
+            <element>Petra Schnugger</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Johan Eriksson</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Johan Lagerstedt</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+            <element>Katarina Palmer</element>
+            <element>Heidi Gutt</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="771px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="94" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="677" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="94" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Verdana, serif, monospace;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="677" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="675px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="675" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;Purpose:&lt;/strong&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Is to determine, if Autoliv specifications and requirements are properly understood and that the manufacturing&amp;nbsp;&amp;nbsp;process has the potential to produce products consistently meeting these requirements under consistent (normal) production conditions. All externally provided products and services (as applicable) shall be approved per ISO 9001 requirements prior to submission to the Autoliv/customer.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Input from Autoliv:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;PPAP-request&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/1c391fa3a36e56d6c1256e5b005d2408"&gt;&lt;/a&gt;&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(PPAP-submission date, PPAP-Level etc.).&lt;/span&gt;&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Autoliv released drawings and specification.&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/84a65efc4284acb8c1256eb70035324b"&gt;PPAP checklist&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (if requested by Autoliv)&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/84a65efc4284acb8c1256eb70035324b"&gt;&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Requirements:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;Check general requirements for PPAP in AIAG-Manual PPAP and in ASM section &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/e82a70959ca3dd50c1256e5b0058f186"&gt;&amp;quot;Autoliv Supplier&amp;nbsp;&amp;nbsp;Requirements/Quality Requirements&amp;quot;.&lt;/a&gt;&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;All submitted PPAP-documentation must be in English.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;PPAP desired format is electronic file.&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;PPAP-submission on time and according to PPAP-request.&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/1c391fa3a36e56d6c1256e5b005d2408"&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;Only if PPAP is 100% complete and o.k. it should be submitted to Autoliv. In case supplier will request an interim approval, the &amp;quot;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/9f0dc367e7d7b683c1257b190040ccde"&gt;Interim Recovery Worksheet&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot; shall be submitted before PPAP. For any deviations an approved action plan supporting the project time line is required before submitting the PPAP.&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;The PPAP-Approval is not a delivery signal. &lt;/strong&gt;&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The supplier shall wait for further delivery information/schedules. &lt;/span&gt;&lt;span style="color:#0000ff;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Output from Supplier:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;PPAP-Submission on time and &amp;quot;right the first time&amp;quot;&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Required Documents:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The PPAP-package shall consist of :&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/1c391fa3a36e56d6c1256e5b005d2408"&gt;&lt;/a&gt;
+				&lt;/div&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;1. PPAP-documentation according to the&amp;nbsp;&amp;nbsp;PPAP-Level defined in the PPAP-request&amp;nbsp;&amp;nbsp;&amp;nbsp;(use AIAG-Manual PPAP-forms)&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;2. Autoliv specific submission documents as defined in the PPAP-Request (Section 17 4 of PPAP-Submission-Index-template).&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt;3&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/84a65efc4284acb8c1256eb70035324b"&gt;PPAP Checklist&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (if requested by Autoliv)&lt;/span&gt;&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Optionally Autoliv PPAP-standard forms can be used:
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Design Records (Drawing Specifications...)
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.2. Approved IMDS declaration of material (done in IMDS database:
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="http://www.mdsystem.com/index.jsp"&gt;http://www.mdsystem.com/index.jsp&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Engineering Change Documents: &amp;quot;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/831af9b42ccfdc38c1257c37004b0e8a"&gt;Supplier Request for Engineering Approval&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/c64935c264893709c1256e6f00449940"&gt;Customer Engineering Approval&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;4. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7663cd4cdec86414c12574e5002a67a8"&gt;Design Failure Mode and Effect Analysis&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/4223918924ba4a17c1256e6f0048b313"&gt; &lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(Design FMEA)&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;5. Process Flow Diagrams (no specific form required)
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;6. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7663cd4cdec86414c12574e5002a67a8"&gt;Process Failure Mode and Effects Analysis&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Process FMEA)&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;7. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7a7a6e8ab6fac225c1257b19002cff70"&gt;Control Plan&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;8. Measurement System Analysis Studies
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;9. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/2034bef1c5d6bc7ec1256e6f00496889"&gt;Dimensional Report&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;10. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/26d4eba55975692dc1257b1a0043e023"&gt;Records of Material/Performance Test Results&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;11. Initial Process Studies (no specific form required)
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;12. Qualified Laboratory Documentation (no specific form required)
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;13. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/2034bef1c5d6bc7ec1256e6f00496889"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/8aed83a89f707ab9c1257b1900284be2"&gt;Appearance Approval Report&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;14. Sample Production Parts (no specific form required)&amp;nbsp;&amp;nbsp;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;15. Master Sample (no specific form required)
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;16. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/4907471dd54acf50c1257b190029a240"&gt;Checking Aids&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;17. Autoliv specific requirements (as applicable):
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;17.1. &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/0f61c23d7f455403c1256ec400542522"&gt;AS 5-Waiver Request Form&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;17.2. Sample of an AIAG label per &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5f32dc55c1e5d63ec1256e670044c004"&gt;AS 4&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; and &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/d6fb930ec25657c2c1256e5b005d198e"&gt;AS 244&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;17.3. Manufacturing lot traceability flow diagram per Autoliv &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5f32dc55c1e5d63ec1256e670044c004"&gt;AS 4&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				17.4. Are heat treatment audits (if required) included (Ford format desired or compliant to CQI-9 unless otherwise requested) &amp;lt; 1 year old
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				17.5. Copy of the packaging instructions 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				17.6&amp;nbsp;&amp;nbsp;Copy of the Tool Asset Form sent to the proper party/location (if applicable)
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If applicable (for interim approval): &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/9f0dc367e7d7b683c1257b190040ccde"&gt;Interim Recovery Worksheet&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;18.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7ce822ec6387a156c1257b1e0051f977"&gt;Part Submission Warrant (PSW)&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(--&amp;gt; &lt;/span&gt;&lt;a href="http://new autoliv supplier manual - general excel guideline&amp;lt;ndl&gt;&amp;lt;replica c1256e5b:0055AE47&gt;&amp;lt;VIEW OF6E124173:DC2E7317-ONC1256BBC:004E9AFA&gt;&amp;lt;NOTE OFD7066BF6:5D60BF0B-ONC125766D:0043A939&gt;&amp;lt;HINT&gt;CN=AHO-LN01/OU=AHO/O=Autoliv&amp;lt;/HINT&gt;&amp;lt;REM&gt;Database &amp;#39;New Autoliv Supplier Manual&amp;#39;, View &amp;#39;Link documents&amp;#39;, Document &amp;#39;General Excel Guideline&amp;#39;&amp;lt;/REM&gt;&amp;lt;/NDL&gt;"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/d7066bf65d60bf0bc125766d0043a939"&gt;General Excel Guideline&lt;/a&gt;&lt;span style="color:#0000ff;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;for using excel templates)&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Reference Documents:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;AIAG-Manual : APQP, PPAP, SPC, MSA&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5f32dc55c1e5d63ec1256e670044c004"&gt;AS 4 (Product Traceability)&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/1b02b280d24ba980c1257ad7002850b2"&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/8da8246f1c69c8fdc1257ad700287c54"&gt;AS 4 Appendix 1b - Traceability Flow chart (Supplier Example)&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/962364302a1344e5c1257ad700288849"&gt;AS 4 Appendix 2 - Traceability Classification Levels&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#0000ff;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/67886ddd48e81b3ec1257ad700289368"&gt;AS 4 Appendix 3 - Traceability Data Requirements Charts&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/b8f9cc7fb6696708c1256e5b005d1988"&gt;AS 5&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Substance Use Restrictions for Autoliv Inc.)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/cfc8f3b36b465a2ac1256e5b005d198c"&gt;AS 52&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(Product Characteristics Classification)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/67b3f9a069a1b8e8c1256e6f004ed7f4"&gt;AS 104&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (FMEA = Failure Mode and Effects Analysis)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/d6fb930ec25657c2c1256e5b005d198e"&gt;AS 244&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(Package and Transport Label)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;AS 244 Appendices: see &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/6ea750c1144772d9c1256f0a005b5a06"&gt;Reference documents&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/38bf2c7d9e41e055c1256e6e00537455"&gt;ASM Supplier Requirements/Quality PPAP&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot;&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/7e7b0571746b6207c1256e5b00593f9b"&gt;ASM Supplier Requirements/Logistic&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot;&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5bfe7d7150632ffdc1256ec8003bf049"&gt;&amp;quot;ASM Supplier Requirements/Environment&amp;quot;&lt;br/&gt;Autoliv IMDS Reporting Guidelines&amp;#9;&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="94" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="677" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="661px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				Latest revision
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="548" valign="top" style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;
+				Date:
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:7pt;font-family:Arial, san-serif;"&gt;26.10.2017 13:50:06&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="548" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;
+				Text:
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:7pt;font-family:Arial, san-serif;"&gt;Remove PPAP Submission Index&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td colspan="2" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div class="sectionheader collapsed"&gt;
+				Revision History
+				&lt;/div&gt;&lt;div class="section" style="margin:1em 0em 1em 2em;"&gt;
+				&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:7pt;font-family:Arial, san-serif;"&gt;21.04.2006 10:14:23&lt;br/&gt;
+-&lt;br/&gt;
+&lt;br/&gt;
+21.07.2006 09:28:09&lt;br/&gt;
+-&lt;br/&gt;
+&lt;br/&gt;
+21.07.2006 13:36:51&lt;br/&gt;
+Several PPAP-templates changed and aligned to latest version of AIAG-Manual-PPAP (Version 4)&lt;br/&gt;
+&lt;br/&gt;
+10/17/2006 01:17:45 PM&lt;br/&gt;
+-&lt;br/&gt;
+&lt;br/&gt;
+2008-09-26 10:01:18&lt;br/&gt;
+Editorial changes only&lt;br/&gt;
+&lt;br/&gt;
+2009-04-28 10:02:25&lt;br/&gt;
+PPAP Submission Warrant - Level 5. Requirements corrected &amp;quot;...complete supporting data...&amp;quot;.&lt;br/&gt;
+&lt;br/&gt;
+2009-09-11 07:32:39&lt;br/&gt;
+17.1.6 Tool Asset Form added. PPAP checklist is updated with regards to this as well.&lt;br/&gt;
+&lt;br/&gt;
+2010-03-16 17:01:23&lt;br/&gt;
+PPAP Checklist Rev 01-10 improved with regards to format, spelling, etc.&lt;br/&gt;
+&lt;br/&gt;
+2010-05-25 13:30:08&lt;br/&gt;
+Replaced AS 105 with AS 104 (version 4.0 includes requirements of both P-FMEA and D-FMEA)&lt;br/&gt;
+&lt;br/&gt;
+29.02.2012 13:52:37&lt;br/&gt;
+Appearance approval report - reference to PPAP 4 th edition AIAG instead of 3rd edition of QS9000&lt;br/&gt;
+&lt;br/&gt;
+08.03.2017 16:06:21&lt;br/&gt;
+Reference Documents AS4 Appendix 1a deleted&lt;br/&gt;
+&lt;br/&gt;
+15.06.2017 08:57:39&lt;br/&gt;
+Change Dimensional Results to Dimensional Report&lt;br/&gt;
+&lt;br/&gt;
+15.06.2017 14:17:29&lt;br/&gt;
+Changes in Purpose: &lt;br/&gt;
+&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;br/&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="0" />
+          <field name="RenderAttachments$name" array="true" type="String" length="0" />
+          <field name="RenderAttachments$ID" array="true" type="String" length="0" />
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="0" />
+          <field name="RenderImages$type" array="true" type="String" length="0" />
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-03-18T16:57:20.78Z</field>
+          <field name="docmodified" type="DateTime">2017-12-26T12:16:26.65Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="18">
+            <element>CN=Jonas Dahlberg/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2434</field>
+          <field name="unid" type="String">b1173a01e77e298ac1256e5b005d240e</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/b1173a01e77e298ac1256e5b005d240e</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="18">
+            <element>Jonas Dahlberg</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				DfP Follow Up Meeting Guideline
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/DFP GUIDELINE FOLLOW UP MEETINGS.DOC"&gt;DFP GUIDELINE FOLLOW UP MEETINGS.DOC&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="40448" src="frmSetup_Files\b1173a01e77e298ac1256e5b005d240e\DFP GUIDELINE FOLLOW UP MEETINGS.DOC" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>DFP GUIDELINE FOLLOW UP MEETINGS.DOC</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>DFP GUIDELINE FOLLOW UP MEETINGS.DOC</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-04-13T13:36:59.53Z</field>
+          <field name="docmodified" type="DateTime">2017-12-26T12:16:20.97Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="22">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Petra Schnugger/OU=ANG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2438</field>
+          <field name="unid" type="String">612d376ac5b96befc1256e75004acc41</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/612d376ac5b96befc1256e75004acc41</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="22">
+            <element>Sarah Wundsam</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>Petra Schnugger</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				ASDP Review Guideline
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/ASDP Review-Guideline.pdf"&gt;ASDP Review-Guideline.pdf&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="19987" src="frmSetup_Files\612d376ac5b96befc1256e75004acc41\ASDP Review-Guideline.pdf" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>ASDP Review-Guideline.pdf</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>ASDP Review-Guideline.pdf</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-04-13T13:38:38.66Z</field>
+          <field name="docmodified" type="DateTime">2013-02-21T12:22:25.86Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="20">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2442</field>
+          <field name="unid" type="String">4c1aad391d979cccc1256e75004af2fa</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/4c1aad391d979cccc1256e75004af2fa</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="20">
+            <element>Sarah Wundsam</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				ASDP-APS-Survey-Radar-Diagramme
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/APS survey radar diagram.xls"&gt;APS survey radar diagram.xls&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="41984" src="frmSetup_Files\4c1aad391d979cccc1256e75004af2fa\APS survey radar diagram.xls" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>APS survey radar diagram.xls</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>APS survey radar diagram.xls</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-03-18T16:11:29.98Z</field>
+          <field name="docmodified" type="DateTime">2017-06-15T14:28:32.95Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="23">
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Bettina Wolff/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Sarah Pawlik/OU=ASG/O=Autoliv</element>
+            <element>CN=Petra Schnugger/OU=ANG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Heidi Gutt/OU=ANG/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2446</field>
+          <field name="unid" type="String">e82a70959ca3dd50c1256e5b0058f186</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/e82a70959ca3dd50c1256e5b0058f186</field>
+          <field name="Form" type="String">DocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="23">
+            <element>Synergica</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Bettina Wolff</element>
+            <element>Sarah Wundsam</element>
+            <element>Sarah Pawlik</element>
+            <element>Petra Schnugger</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+            <element>Katarina Palmer</element>
+            <element>Heidi Gutt</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="771px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="94" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="677" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="94" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Verdana, serif, monospace;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="677" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="675px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="675" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;Purpose:&lt;/strong&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				To explain the Autoliv specific quality requirements in addition to the requirements included in the 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				ISO 9001 and IATF 16949.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Input from Autoliv:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Autoliv Supplier Manual (ASM)&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Autoliv Standards referred to in the ASM&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Requirements:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;1.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Responsibility&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The supplier has the full responsibility to set up and maintain an effective, operating quality system ensuring that the supplier, their sub suppliers and outsourced processes/services are under control and capable of developing and manufacturing materials/components and providing services which consistently conform to all Autoliv requirements. This includes assessing what methods and actions are necessary and the effectiveness of those actions to address the risks and opportunities in the supplier&amp;#39;s value stream. This also includes the control of externally provided products, processes and services as follows:
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Shall determine type and extent of controls to be applied and verification activities&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Shall dertemine evaluation, selection, monitoring of performance and re-evaluation&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Retain records&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Provide external providers with requirements including competency/qualification&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Organization shall control and monitor providers performance&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Ensure externally provided processes remain in control of QMS&lt;/li&gt;
+				&lt;/ul&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;2.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Quality system&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Autoliv requires compliance and evidence according to ISO 9001, the AIAG-Manuals PPAP and APQP, the ASM and eventual full compliance to IATF 16949. 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Autoliv Suppliers must have third-party certificates to the current version of ISO 9001 or IATF 16949. Suppliers shall have a plan to obtain IATF 16949 certification. Risk analysis shall be used to document the criteria for determining the need, type, frequency and scope of second party audits and retain records of audit reports.
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Suppliers should have management reviews to understand and assess the risks of their products and work to improve that risks. 
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;3.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Advanced Product Quality Planning (APQP)&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The supplier shall follow the APQP&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7b849d694d376824c12576a20047c2f2"&gt;&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; process as defined in the AIAG APQP Manual. Autoliv specific APQP requirements are documented on the &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7b849d694d376824c12576a20047c2f2"&gt;S-APQP overview&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/e0e647927d1fa105c12576a2003ce6d4"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7b849d694d376824c12576a20047c2f2"&gt;&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/4a87d80eef826627c12576a2003b8b15"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/4a87d80eef826627c12576a2003b8b15"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/4a87d80eef826627c12576a2003b8b15"&gt;&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(see&lt;/span&gt;&lt;span style="color:#ff0000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/a6ed8c154b7c1a04c1257c300026c730"&gt;Training&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;). &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;Each identified activity shall be planned and included in the supplier APQP process. &lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;These activities shall be documented by the supplier in the S-APQP project created by Autoliv SQ and in the&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; supplier project plan. The results from each activity during the project shall be made available to Autoliv on request. The supplier must report progress and the current status of all projects through the application of Advanced Quality Planning techniques and use Autoliv related IT application (references: SQP IT application&amp;nbsp;&amp;nbsp;in APP &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;see&lt;/span&gt;&lt;span style="color:#ff0000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/a6ed8c154b7c1a04c1257c300026c730"&gt;Training&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;) and the AIAG-Manual APQP&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;).&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;4.&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;strong&gt;Supplier PFMEA Go, See &amp;amp; Fix &lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The &amp;#8220;Supplier PFMEA Go, See &amp;amp; Fix &amp;#8221; is an activity with the purpose to improve the quality of our products by &lt;br/&gt;
+
+				&lt;/div&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;evaluating PFMEA failure modes&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;comparing related prevention and detection steps of the PFMEA at the production line and related areas (from incoming material to outgoing product)&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;verification of effectiveness all poka-yoke&amp;#8217;s and detection sensors in the production line. &lt;br/&gt;
+&lt;/li&gt;
+				&lt;/ul&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;A detailed description including questionnaire can be found in the &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/9e2c34ee787bba01c125802e003f1e50"&gt;Supplier PFMEA Go, See &amp;amp; Fix Workshop&lt;br/&gt;&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;5.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Production Part Approval Proces&lt;/strong&gt;&lt;strong&gt;s (PPAP)&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The AIAG manual &amp;quot;Production Part Approval Process&amp;quot; (PPAP) defines the requirements for part submissions. To ensure compliance with our customer&amp;#39;s requirements, the Autoliv expectations and specific requirements have been established as additional PPAP requirements (references&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/38bf2c7d9e41e055c1256e6e00537455"&gt;ASM-Quality Requirements/&amp;#8220;PPAP&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot;&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;and AIAG-Manu&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;al&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;PP&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;AP)&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;6. Supplier Request for Engineering Approval (SR&lt;/strong&gt;&lt;strong&gt;EA)&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The SREA procedure applies to all suppliers. Autoliv engineering approval is required prior to implementing any change.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;7.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Special Characteristics Classification&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The Special Characteristics Classification and resulting actions are defined and explained in&amp;nbsp;&amp;nbsp;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;the Autoliv Standard &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/cfc8f3b36b465a2ac1256e5b005d198c"&gt;AS 52&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Results of control and verification of Special Characteristics will be directed by the using Autoliv facility. Special Characteristics passed down to supplier require them to cascade applicable requirements down the supply chain.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;8.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Product, process and system audit&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:12pt;font-family:Arial, san-serif;"&gt;
+				Suppliers shall audit each manufacturing process to determine its effectiveness and select the types and extent of controls used to verify conformity to internal and customer requirements. Supplier shall have criteria to escalate or reduce their controls based on their performance and assessment of their product of service risk
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;8.1 Genera&lt;/strong&gt;&lt;/span&gt;&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;l&lt;/strong&gt;&lt;/span&gt;&lt;span style="color:#ff0000;font-size:12pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Autoliv has the right to carry out product, process and system audits at the supplier and their sub suppliers. Autoliv can require that the suppliers carry out and report internal product process and system audit results. Supplier auditors should have the following minimum auditor qualification requirements:
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Automotive process approach to auditing including risk based thinking&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Applicable customer and suppliers specific requirements&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Applicable ISO 9001 and IATF 16949 requirements&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Applicable Manufacturing processes including PFMEA and Control Plan&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Applicable core tool requirements (SPC, MSA, FMEA, APQP, PPAP, etc.)&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Understanding how to plan, conduct, report and close audit findings&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:12pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;8.2&amp;#160; Special Process Assessments&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;Supplier shall evaluate the effectiveness of each of the applicable special processes listed and described in the associated&lt;/span&gt;&lt;span style="color:#0000ff;font-size:12pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/795984c3e25141c9c1256f8e005239bc"&gt;AS69&lt;/a&gt;&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt; manual.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;Evaluation of&lt;/span&gt;&lt;span style="color:#0000ff;font-size:12pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/795984c3e25141c9c1256f8e005239bc"&gt;AS6&lt;/a&gt;&lt;span style="color:#0000ff;text-decoration:underline;font-size:12pt;font-family:Arial, san-serif;"&gt;9&lt;/span&gt;&lt;span style="color:#0000ff;font-size:12pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;shall be by self-assessment. The self-assessment shall be conducted annually, but may be repeated as needed. The self-assessment must be conducted as part of the supplier&amp;#8217;s internal quality audit.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;If required, Autoliv authorized Representative may perform &amp;#160;special process audits &amp;#160;or review validation at the supplier site according to &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/795984c3e25141c9c1256f8e005239bc"&gt;AS69&lt;/a&gt;&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;. Supplier must assure that sub-suppliers have full control of any outsourced processes or services included for AS69 type activities which includes plating, coating, heat treat and other process/services done on supplier&amp;#39;s products.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:12pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;8.3 Sub-Supplier Process Assessments&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#ff0000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:12pt;font-family:Arial, san-serif;"&gt;Suppliers shall:&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Document standards and criteria to evaluate sub-supplier performance in order to ensure externally provided products, processes and services meet all requirements.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Assure that sub-supplier indicators performance include customer disruptions at the receiving plant, yard holds and stop ships, special status notification &amp;amp; dealer returns, warranty, field actions and recalls.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Evaluate the effectiveness of sub-supplier&amp;#39;s QMS to assure that they are ISO 9001 and IATF 16949 compliant.&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:12pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;8.4 Sub-Supplier Oursourced Services&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:12pt;font-family:Arial, san-serif;"&gt;
+				Suppliers shall:
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Have a process to identify, control and document their sub-supplier&amp;#39;s processes for services rendered that can affect the final customer&amp;#39;s products and assure they are ISO 9001 and IATF 16949 compliant.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Examples of some services that can affect customer requirements, may include: sub-assembly, sequencing, sorting, testing, calibration services, warehousing, logistics, etc.&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;9.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Dock Audit &lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The supplier shall complete a Dock Audit prior to shipping a manufacturing lot of product to Autoliv (reference section &amp;#8220;Lot Definition&amp;#8221; below).&amp;nbsp;&amp;nbsp;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;Dock Audit is heightened inspection to review product/packaging prior to shipment to verify conformance to requirements listed on &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/8ccb7dd748557fd2c1257a6a00273662"&gt;Dock Audit Report (DAR)&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; supplied and agreed by Autoliv SQ.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				A Dock Audit is a product inspection that is performed on product after the manufacturing activity and final inspection is completed (prior to shipment) done by supplier. 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Supplier to perform DAR on every delivery and keep paperwork on file unless needed at Autoliv. DAR shall be therefore included in the supplier&amp;#8217;s control Plan. 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Autoliv randomly verify the supplier DAR and other specified documents by check (physical/document ) to insure that all of the agreed operations are performed in accordance with Autoliv requirements.
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#ff0000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&amp;#160;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;A Dock Audit Report (DAR) as a specific Inspection Standard shall be on required format and on file at the supplier&amp;#8217;s facility and available upon request by the Autoliv using facility.&lt;/span&gt;&lt;span style="color:#ff0000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/8ccb7dd748557fd2c1257a6a00273662"&gt;Dock Audit Report (DAR)&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The Dock Audit and DAR requirements will be provided to the supplier by the using facility SQ during the Supplier Qualtity Project or serial production.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Raw Material Certifications are to be retained by the supplier (reference &amp;#8220;Document Control and Records&amp;#8221;) and available upon request by Autoliv.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;10.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;Annual Layout Inspections&lt;/strong&gt;&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The supplier shall conduct a one piece, 100% layout inspection of every part number minimum once per year from each manufacturing process and tool. This layout shall include all dimensions / characteristics specified on drawings and specifications, if not otherwise specified. Annual layout inspection and dates shall be included in the supplier&amp;#8217;s production control plan. Any characteristics which are enumerated on the production control plan and are measured more frequently than once per year will not require annual layout inspection. The data shall be available on request from the Autoliv using facility. In the event there is a non-conformance, all related data shall be submitted to the product approval authority of the using Autoliv facility.&amp;nbsp;&amp;nbsp;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				For multi-cavity tooling, all cavities must be represented. 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				If a complete new PPAP submission is required, the PPAP will substitute the Annual Layout Inspection. 
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The above annual layout inspection standard is becoming a global, mandatory requirement for all supplier products where purchase orders is placed after the 31st of December 2004. Before that date Autoliv encourages suppliers to conduct the annual layout on existing and new products.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;11.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Product Safety, Liability and Warranty&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The supplier is responsible for that any and all materials, components, &lt;/span&gt;&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;products and services supplied to&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;Autoliv&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; in all respects conform to Autoliv specifications, drawings, quality requirements and that such materials, components, products and services are free from defects in design (to the extent designed by supplier), material and workmanship, are of merchantable quality and comply with all applicable laws.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				All non-conforming materials, components, products and services can cause product safety, liability and warranty issues that will be claimed against the supplier.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Therefore all supplier staff members, who are responsible for or working with instructions related to product quality and performance, must be educated and understand the principles of product safety, liability and warranty. Supplier must also consider capabilities of and constraints on existing resources and what is needed from external providers.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The supplier must introduce adequate systems of control, ensuring the following:
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Information and qualification of the affected personnel.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Legal advise (internal and external).&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Compliance with and use of state-of-the-art technology.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;That the development, production and quality assurance processes and their supervision are according to the latest status of technology (it may not be sufficient only to comply with the&amp;nbsp;&amp;nbsp;standard). &lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Limitation of fault consequences by documentation and traceability system.&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Immediate information to Autoliv of any discovered non-conformity.&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;12.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Product Status and Traceability&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				The supplier systems must ensure that all critical and significant characteristics as indicated 
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				on Autoliv drawings and specifications are traceable and recorded from the lot/batch number of the delivered part to the raw material(s) lot(s)/batch(s) from the sub supplier. This is also applicable for all process parameters affecting such characteristics and raw material certificates or analyses.
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				All records shall be provided to Autoliv immediately, without delay upon request.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The identification of inspection and test status for products shall be maintained at each stage of production. The traceability level of Autoliv parts is specified according to Autoliv Standard &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5f32dc55c1e5d63ec1256e670044c004"&gt;AS 4&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;.&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;13.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Lot / batch definition&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				If nothing else is specified, the suppliers manufacturing lot/batch size shall not exceed one (1) day (24 hours) production, with a maximum of 20.000 parts. The definition of the lot/batch size shall be done in consideration of traceability requirements.
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(reference: &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5f32dc55c1e5d63ec1256e670044c004"&gt;AS 4&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;see&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/0d00c7433f595389c1256e76004d35a4"&gt;&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; appendix 2)&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;14.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Document Control and Records &lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				All documents and records demonstrating product quality conformance and traceability documents, must be stored in safe condition in order to prevent destruction and maintained for minimum 20 years after shipment of items affected by document or longer if required by legislation. In addition to that specified in ISO 9001 or IATF 16949, the following records shall require retention:
+				&lt;/div&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Production conformity test reports&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Critical process parameters as defined in the supplier Control Plan&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Raw material certificate&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Test procedures and results&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Receiving inspection results&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;PPAP submission and response&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Master samples &lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;15.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Corrective Action&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;The Autoliv expectations regarding problem solving are defined and explained the Autoliv Standard &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/9ccd0ef86a094a87c1256e6f003c1df6"&gt;AS 63 &lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;and in the ASM-Main block &amp;quot;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/c99e9d6d9989506cc1256e5b005b0daf"&gt;The product Life Cycle with Autoliv&amp;quot;/&amp;quot;Complaint Reporting and Resolution&amp;quot;&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;16.&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Continuous Improvement&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Autoliv requires a continuous improvement program from their suppliers. Autoliv recommends the
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;tools included in the &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/519489e84b87b40fc1256e8500517d04"&gt;APS&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Autoliv Production System). The program shall also include actions to identify and reduce process variations. References: ASM-Main block &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/0b2ee61d1c73e576c1256e5b005ae2db"&gt;&amp;#8220;The product Life Cycle with Autoliv/Continuous Process and Cost Improvement&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;quot; &lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;and &lt;/span&gt;&lt;a href="notes:///6525820200492c01/6922c5a6c701b1e0c1256bbc00437c0d/561a5f47615c54e5c1256e5b00597084"&gt;ASM-Main block/ &amp;#8220;Autoliv Supplier Development Programme&amp;quot;&lt;/a&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;17. &lt;/strong&gt;&lt;strong&gt;Reference documentation&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				Any document used as a reference document in the ASM, refers to the latest valid revision.
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Output from Supplier:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Acknowledgement of acceptance of ASM (Autoliv Supplier Manual).&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Third party Quality System certification or plan to reach ISO 9001 or IATF 16949 certification.&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="color:#000000;text-decoration:underline;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;
+				&lt;strong&gt;Required Documents:&lt;/strong&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;br/&gt;&lt;ul type="square"&gt;
+				&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/05d288742820f4d6c1256f0a0030edb8"&gt;ASM Supplier Acknowledgement Letter&lt;/a&gt;&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;Third party Quality System certificate or documented plan to reach ISO 9001 or IATF 16949 certification.&lt;/li&gt;
+				&lt;/ul&gt;&lt;br/&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;text-decoration:underline;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;Reference Documents:&lt;/strong&gt;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/d77d0b618fc2c23ec1256e8b005c55c9"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/d7066bf65d60bf0bc125766d0043a939"&gt;&lt;/a&gt;
+				&lt;/div&gt;&lt;ul type="square"&gt;
+				&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7b849d694d376824c12576a20047c2f2"&gt;S-APQP Overview&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/e0e647927d1fa105c12576a2003ce6d4"&gt;&lt;/a&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7b849d694d376824c12576a20047c2f2"&gt;&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/5f32dc55c1e5d63ec1256e670044c004"&gt;AS 4&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Product Traceability)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/8da8246f1c69c8fdc1257ad700287c54"&gt;AS 4 Appendix 1b - Traceability Flow chart (Supplier Example)&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/962364302a1344e5c1257ad700288849"&gt;AS 4 Appendix 2 - Traceability Classification Levels&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#0000ff;font-size:11pt;font-family:Arial, san-serif;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/67886ddd48e81b3ec1257ad700289368"&gt;AS 4 Appendix 3 - Traceability Data Requirements Charts&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/cfc8f3b36b465a2ac1256e5b005d198c"&gt;AS 52&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Product Characteristics Classification)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/9ccd0ef86a094a87c1256e6f003c1df6"&gt;AS 63&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Problem Solving Process)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/795984c3e25141c9c1256f8e005239bc"&gt;AS 69&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt; (Special Processes - Requirements and Assessments)&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/7cbfbf20ddeee914c1256f8e00529117"&gt;AS 69 - Heat Treat Assessment File&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/e7f84f0977de6b35c12574cf00245adc"&gt;AS 69 - Plating Assessment File&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/2b7189327ef52614c12574cf00249bee"&gt;AS 69 - Coating Assessment File&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/27b13fc125032814c1257d9d00481921"&gt;AS 69 - Welding Assessment File&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/59bb7e9b1b88749ec1257d9d004867ad"&gt;AS 69 - Soldering Assessment File&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/57e74094009ef0b2c1257d9d004888b0"&gt;AS 69 - Crimping Assessment File&lt;/a&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/99d35d037c754459c12579090034c686"&gt;AS 104&lt;/a&gt;&lt;span style="color:#0000ff;font-size:11pt;font-family:Arial, san-serif;"&gt; - FMEA&lt;/span&gt;&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;a href="notes:///6525820200492c01/6e124173dc2e7317c1256bbc004e9afa/8ccb7dd748557fd2c1257a6a00273662"&gt;Dock Audit Report template&lt;/a&gt;&lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;IATF 16949 (Quality Management Systems) &lt;/li&gt;&lt;li style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;ISO 9001 (Quality Management System)&lt;/li&gt;&lt;li style="text-align:left;"&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;strong&gt;AIAG manuals &lt;/strong&gt;&lt;/span&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;(obtainable e.g. from Carwin Continuous Ltd. Unit 1 Trade Link, Western Ave, West Thurrock, Grays, Essex, England (Tel. +44-1708861333, Fax +44-1708867941) and on internet address &lt;/span&gt;&lt;a href="http://www.asq.org/9000"&gt;www.asq.org/9000&lt;/a&gt;&lt;span style="color:#000000;font-size:11pt;font-family:Arial, san-serif;"&gt;):&lt;/span&gt;&lt;/li&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="100%" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="3%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="10%" valign="top" style="color:#000000;text-align:right;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				-
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="86%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				PPAP (Production Part Approval Process)
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="3%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="10%" valign="top" style="color:#000000;text-align:right;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				-
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="86%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				IATF 16949 System Audit Questionnaire
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="3%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="10%" valign="top" style="color:#000000;text-align:right;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				-
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="86%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				APQP (Advanced Product Quality Planning and Control Plan)
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="3%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="10%" valign="top" style="color:#000000;text-align:right;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				-
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="86%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				SPC (Statistical Process Control)
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="3%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="10%" valign="top" style="color:#000000;text-align:right;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				-
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="86%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				MSA (Measurement Systems Analysis)
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="3%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="10%" valign="top" style="color:#000000;text-align:right;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				-
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="86%" valign="top" style="color:#000000;text-align:left;font-size:11pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				P-FMEA (Process Failure Mode and Effects Analysis)
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;
+				&lt;/ul&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="94" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="677" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="661px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				Latest revision
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="548" valign="top" style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;
+				Date:
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:7pt;font-family:Arial, san-serif;"&gt;15.06.2017 14:01:07&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;&lt;/td&gt;&lt;td width="548" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="color:#000000;text-align:left;font-size:7pt;font-family:Arial, san-serif;"&gt;
+				Text:
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:7pt;font-family:Arial, san-serif;"&gt;text update&lt;/span&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td colspan="2" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div class="sectionheader collapsed"&gt;
+				Revision History
+				&lt;/div&gt;&lt;div class="section" style="margin:1em 0em 1em 2em;"&gt;
+				&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:7pt;font-family:Arial, san-serif;"&gt;18.08.2004 14:44:49&lt;br/&gt;
+Reference Documents: New Autoliv Standard AS69 (Heat Treat Requirements) is added!&lt;br/&gt;
+&lt;br/&gt;
+21.01.2005 13:23:47&lt;br/&gt;
+AS69 Appendix A is added&lt;br/&gt;
+&lt;br/&gt;
+01.09.2005 17:38:25&lt;br/&gt;
+The wording in &amp;quot;Quality Requirements PPAP&amp;quot; were changed: Chapter &amp;quot;Requirements / General seventh bullet:&lt;br/&gt;
+&lt;br/&gt;
+04/21/2006 12:22:16 PM&lt;br/&gt;
+It is now made clearer, that a supplier-PPAP-approval by one Autoliv plant is also valid for all other Autoliv-plants.&lt;br/&gt;
+&lt;br/&gt;
+2008-09-25 10:22:53&lt;br/&gt;
+Replaced AS 69 (Heat Treat Requirements) with AS 69 Special Processes - Requirements and Assessments)&lt;br/&gt;
+&lt;br/&gt;
+2010-01-05 11:26:22&lt;br/&gt;
+Replaced AS69 Appendix A (Heat Treat Audit) with AS 69 Heat Treat Assessment File, AS 69 - Plating Assessment File and AS 69 - Coating Assessment File&lt;br/&gt;
+&lt;br/&gt;
+31.03.2010 08:23:03&lt;br/&gt;
+Chapter 3. Advanced Product Quality Planning modified with regards to the new S-APQP.&lt;br/&gt;
+&lt;br/&gt;
+2011-09-12 13:30:50&lt;br/&gt;
+Added &amp;#39;current version of&amp;#39; ISO 9001 and ISO/TS 16949.&lt;br/&gt;
+&lt;br/&gt;
+30.08.2012 09:17:27&lt;br/&gt;
+Added section 4 Go&amp;amp;See PFMEA&lt;br/&gt;
+&lt;br/&gt;
+23.08.2016 13:41:40&lt;br/&gt;
+Added link to Dock Audit Report (DAR) template, section 9 and Reference Documents&lt;br/&gt;
+&lt;br/&gt;
+13.09.2016 15:16:09&lt;br/&gt;
+Changes in 9. Dock Audit &lt;br/&gt;
+&lt;br/&gt;
+12.12.2016 14:52:54&lt;br/&gt;
+13.09.2016 - change wording in 4. from Go&amp;amp;See PFMEA to Supplier PFMEA Go, See &amp;amp; Fix&lt;br/&gt;
+&lt;br/&gt;
+08.03.2017 16:07:53&lt;br/&gt;
+switch from AS104 appendic C to Supplier PFMEA Go, See &amp;amp; Fix checklist&lt;br/&gt;
+&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;br/&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="0" />
+          <field name="RenderAttachments$name" array="true" type="String" length="0" />
+          <field name="RenderAttachments$ID" array="true" type="String" length="0" />
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="0" />
+          <field name="RenderImages$type" array="true" type="String" length="0" />
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-04-13T13:32:05.1Z</field>
+          <field name="docmodified" type="DateTime">2017-12-26T12:16:20.55Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="19">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Pawlik/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2450</field>
+          <field name="unid" type="String">5eabc99c829a2b74c1256e75004a593e</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/5eabc99c829a2b74c1256e75004a593e</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="19">
+            <element>Sarah Wundsam</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>Sarah Pawlik</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				ASDP-APS-Workshop-Guideline
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/APS workshop guideline.doc"&gt;APS workshop guideline.doc&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="63488" src="frmSetup_Files\5eabc99c829a2b74c1256e75004a593e\APS workshop guideline.doc" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>APS workshop guideline.doc</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>APS workshop guideline.doc</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+        <record>
+          <field name="doccreated" type="DateTime">2004-04-07T14:46:21.36Z</field>
+          <field name="docmodified" type="DateTime">2013-02-21T13:45:31.66Z</field>
+          <field name="ModifiedBy" array="true" type="String" length="23">
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=AHO-LN01/OU=AHO/O=Autoliv</element>
+            <element>CN=Sarah Wundsam/OU=ASG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Petra Schnugger/OU=ANG/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Synergica/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Fredrik Agrell/OU=AHO/O=Autoliv</element>
+            <element>CN=Katarina Palmer/OU=AHO/O=Autoliv</element>
+            <element>CN=Christina Koch/OU=ANG/O=Autoliv</element>
+          </field>
+          <field name="noteid" type="Double">2454</field>
+          <field name="unid" type="String">9ab7009898f6a97dc1256e6f005125f8</field>
+          <field name="parentnoteid" type="null" />
+          <field name="parentunid" type="null" />
+          <field name="dbid" type="String">6525820200492c01</field>
+          <field name="notesurl" type="String">notes:///6525820200492c01/0/9ab7009898f6a97dc1256e6f005125f8</field>
+          <field name="Form" type="String">LinkDocumentF</field>
+          <field name="ModifiedBy$MAPPED" array="true" type="String" length="23">
+            <element>Sarah Wundsam</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Synergica</element>
+            <element>AHO-LN01</element>
+            <element>Sarah Wundsam</element>
+            <element>Synergica</element>
+            <element>Petra Schnugger</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Synergica</element>
+            <element>Katarina Palmer</element>
+            <element>Synergica</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Fredrik Agrell</element>
+            <element>Katarina Palmer</element>
+            <element>Christina Koch</element>
+          </field>
+          <field name="RenderHtml" type="String">&lt;div class="ms-rte-layoutszone-inner"&gt;
+				&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;&lt;table border="0" cellspacing="0" background="#000000" bordercolor="#000000" width="774px" style="text-align:left;"&gt;
+				&lt;tr&gt;
+				&lt;td width="113" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="text-align:left;"&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" valign="top" style="text-align:left;"&gt;&lt;/td&gt;&lt;td width="661" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;div style="margin-left:24px;"&gt;
+				Supplier Request for Engineering Approval
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;&lt;tr&gt;
+				&lt;td width="113" bgcolor="#ffffff" valign="top" style="color:#000000;text-align:left;font-size:9pt;font-family:Arial, san-serif;"&gt;&lt;br/&gt;&lt;/td&gt;&lt;td width="661" bgcolor="#ffffff" valign="top"&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;div style="text-align:left;"&gt;
+				&lt;span style="color:#000000;font-size:9pt;font-family:Arial, san-serif;"&gt; &lt;/span&gt;&lt;span style="color:#ffffff;font-size:10pt;font-family:Arial, san-serif;"&gt;&lt;/span&gt;
+				&lt;/div&gt;&lt;br /&gt;&lt;div style="text-align:left;"&gt;
+				 [&lt;a href="~parts/Supplier Request Engineering Approval 091111.xls"&gt;Supplier Request Engineering Approval 091111.xls&lt;/a&gt;] 
+				&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;&lt;div style="margin-left:24px;"&gt;
+				&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;
+				&lt;/div&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;br /&gt;&lt;br/&gt;&lt;/p&gt;
+				&lt;/div&gt;</field>
+          <field name="RenderAttachments" array="true" type="Object" length="1">
+            <element length="26112" src="frmSetup_Files\9ab7009898f6a97dc1256e6f005125f8\Supplier Request Engineering Approval 091111.xls" />
+          </field>
+          <field name="RenderAttachments$name" array="true" type="String" length="1">
+            <element>Supplier Request Engineering Approval 091111.xls</element>
+          </field>
+          <field name="RenderAttachments$ID" array="true" type="String" length="1">
+            <element>Supplier Request Engineering Approval 091111.xls</element>
+          </field>
+          <field name="RenderAttachments$BLOCKED" array="true" type="String" length="0" />
+          <field name="RenderImages" array="true" type="Object" length="1">
+            <element length="1235" encoding="base64">R0lGODlhZACgD7MAANTQyHx5cHl3c3t4cXt4c3x5cX16c356c3x5c3l4c////wAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAABkAKAPAAT/EMhJq7046827/2AojmRpnmiqrmzrvnAsz3Rt33iu73zv/8CgcEgsGo/IpHLJbDqf0Kh0Sq1ar9isdsvtekeBcGBAGIjDBYJgTTi73+dB4T1YCxIHuF5sQLwNdmtze28KhoeIiYqLjI2Oj5CRkpOUlZaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExcbHyMnKy8zNzs/Q0dLT1NXW19jZ2tvc3d7f4OHi4+Tl5ufo6err7O3u7/Dx8vP09fb3+Pn6+/z9/v8AAwocSLCgwYMIEypcyLChw4cQI0qcSLGixYsYM2rcyLGjx48g/0OKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOKHUu2rNmzaNOqXcu2rdu3cOPKnUu3rt27ePPq3cu3r9+/gAMLHky4sOHDiBMrXsy4sePHkCNLnky5suXLmDNr3sy5s+fPoEOLHk26tOnTqFOrXs26tevXsGPLnk27tu3buHPr3s27t+/fwIMLH068uPHjyJMrX868ufPn0KNLn069uvXr2LNr3869u/fv4MOLH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo4P+ABBZo4IEIJqjgggw26OCDEEYo4YQUVmjhhRhmqOGGHHbo4YcghijiiCSWaOKJKKao4oostujiizDGKOOMNNZo44045qjjjjz26OOPQAYp5JBEFmnkkUgmqeSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll2CGKeaYZJZp5plopqnmmmy26eabcMYp55x01mnnnXjmqeeefPbp55+ABirooIQWauihiCaq6KKMNuroo5BGKumklFZq6aWYZqrpppx26umnoIYq6qiklmrqqaimquqqrLbq6quwxirrrLTWauutuOaq66689urrr8AGK+ywxBZr7LHIJqvsssw26+z/s9BGK+201FZr7bXYZqvtttx26+234IYr7rjklmvuueimq+667Lbr7rvwxivvvPTWa++9+Oar77789uvvvwAHLPDABBds8MEIJ6zwwgw37PDDEEcs8cQUV2zxxRhnrPHGHHfs8ccghyzyyCSXbPLJKKes8sost+zyyzDHLPPMNNds880456zzzjz37PPPQAct9NBEF2300UgnrfTSTDft9NNQRy311FRXbfXVWGet9dZcd+3112CHLfbYZJdt9tlop6322my37fbbcMct99x012333XjnrffefPft99+ABy744IQXbvjhiCeu+OKMN+7445BHLvnklFdu+eWYZ675gOacd+7556CHLvropJdu+umop6766qy37vrrsMcu++y012777bjnrvvuvPfu++/ABy/88MQXb/zxyCev/PLMN+/889BHL/301Fdv/fXYZ6/99tx37/334Icv/vjkl2/++einr/767Lfv/vvwxy///PTXb//9+Oev//789+9/bREAADs=</element>
+          </field>
+          <field name="RenderImages$type" array="true" type="String" length="1">
+            <element>GIF</element>
+          </field>
+          <field name="RenderEmbeddedObjects" array="true" type="Object" length="0" />
+          <field name="RenderEmbeddedObjects$type" array="true" type="String" length="0" />
+          <field name="Subject" type="String"></field>
+        </record>
+      </records>
+    </data>
+  </job>
+</portalMigratorData>
